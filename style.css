@@ -204,14 +204,14 @@ button {
 }
 
 .cta-container {
+  padding: 50px;
   background-color: rgb(255, 241, 115);
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   border-radius: 10px;
-  height: 150px;
-  column-gap: 350px;
+  row-gap: 50px;
 }
 
 .cta-container button {
