@@ -97,13 +97,14 @@
   background-color: rgb(227, 227, 227);
 }
 .types-container {
-  padding: 50px;
+  padding: 100px 50px;
+  padding-top: 50px;
 }
 
 .types-container .header {
   width: fit-content;
   margin: 0 auto;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
   max-width: 400px;
   justify-content: center;
   text-align: center;
@@ -145,4 +146,52 @@
 .item-container p {
   margin: 0;
   color: #3b4658;
+}
+
+/* Section Three */
+.s3 {
+  background-color: #1f2937;
+}
+
+.quotes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 50px;
+}
+
+.quote-container {
+  display: flex;
+  padding: 80px;
+  max-width: 840px;
+  flex-direction: column;
+}
+
+.quote-container p.quote {
+  font-size: 32px;
+  font-style: italic;
+  font-weight: lighter;
+
+  background: linear-gradient(to right, #f870a4, #f7a671, #f4b8f4, #e7e5d6);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.quote-container span {
+  background: none;
+  -webkit-text-fill-color: black;
+}
+
+.quoter-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.quoter-container p {
+  margin: 0;
+  color: rgb(240, 234, 234);
+  font-weight: bolder;
+  font-size: 18px;
 }
