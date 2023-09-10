@@ -212,6 +212,7 @@ button {
   flex-wrap: wrap;
   border-radius: 10px;
   row-gap: 50px;
+  min-width: 25px;
 }
 
 .cta-container button {
