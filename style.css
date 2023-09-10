@@ -5,7 +5,7 @@
 /* Header styles */
 .header-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   background-color: #f9faf8;
   color: #1f2937;
@@ -17,7 +17,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-left: 0;
+  margin-right: auto;
 }
 
 .logo-container img {
@@ -33,6 +33,7 @@
 }
 
 .links-container {
+  padding: 0 35px;
   justify-content: center;
 }
 
@@ -40,7 +41,7 @@
   display: flex;
   list-style: none;
   padding-left: 0;
-  gap: 15px;
+  gap: 55px;
   align-items: center;
 }
 
@@ -77,7 +78,7 @@
   color: #3b4658;
 }
 
-.info-container button {
+button {
   margin-top: 10px;
   padding: 7px 30px;
   background-color: rgb(255, 241, 115);
@@ -194,4 +195,51 @@
   color: rgb(240, 234, 234);
   font-weight: bolder;
   font-size: 18px;
+}
+
+/* Section Four */
+.s4 {
+  background-color: rgb(227, 227, 227);
+  padding: 100px 170px;
+}
+
+.cta-container {
+  background-color: rgb(255, 241, 115);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  height: 150px;
+  column-gap: 350px;
+}
+
+.cta-container button {
+  color: #1f2937;
+  border: 2px solid #1f2937;
+  margin: 0;
+}
+
+.cta-container p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.cta-container span {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+/* Section Five */
+.s5 {
+  background-color: #f9faf8;
+}
+
+.footer-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1f2937;
+  flex-wrap: wrap;
 }
